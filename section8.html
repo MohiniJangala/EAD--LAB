@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>htmldom id</title>
+    </head>
+    <h1 id="mainHeading">HTML DOM Experiment</h1>
+
+<p id="paragraph1">This is the first paragraph.</p>
+<p id="paragraph2">This is the second paragraph.</p>
+
+<button onclick="changeContent()">Click Me</button>
+
+<script>
+function changeContent() {
+    document.getElementById("mainHeading").style.color = "green";
+    document.getElementById("paragraph1").innerText = "First paragraph updated!";
+    document.getElementById("paragraph2").style.fontWeight = "bold";
+}
+</script>
+    </body>
+</html>
