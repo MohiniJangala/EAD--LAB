@@ -1,7 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Feedback form</title>
+        <title>feedback form</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: lightblue;
+                margin:0%;
+                padding:20px;
+            }
+            form {
+            background-color: white;
+            width: 400px;
+            padding: 20px;
+            margin: auto; 
+            border-radius: 8px;
+            box-shadow: 0 0 10px lightgray;
+           }
+            h2{
+                text-align: center;
+                color:black;
+            }
+            label{
+                font-weight: bold;
+            }
+            input:focus,textarea:focus{
+                padding:20px;
+                border:2px solid grey;
+            }
+            input,textarea{
+                padding:5px;
+                margin-bottom:10px;
+                width:100%;
+            }
+            textarea{
+                width:100px;
+            }
+            button{
+                background-color: beige;
+                border-radius:5px;
+                padding:20px;
+                width:100%;
+                border:none;
+                font-size:20px;
+                color:burlywood;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: lightgreen;
+            }
+        </style>
     </head>
     <body>
         <h2><b>Feedback Form</b></h2>
@@ -13,7 +61,7 @@
             <label>Email:</label><br>
             <input type="email"><br><br>
             <label>Feedback</label><br>
-            <textarea= rows="14" cols="45"><textarea></textarea><br>
+            <textarea rows="6"></textarea><br>
             <input type="radio" name="Feedback">Good<br>
             <input type="radio" name="Feedback">Very good<br>
             <input type="radio" name="Feedback">Excellent<br>
