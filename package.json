@@ -1,0 +1,12 @@
+{
+  "name": "experiment-03-express-routing-middleware",
+  "version": "1.0.0",
+  "description": "Beginner Express routing and middleware experiment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
