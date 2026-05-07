@@ -1,0 +1,42 @@
+.table-label {
+  display: block;
+  margin: 18px 0 8px;
+  font-weight: 700;
+}
+
+.table-wrapper {
+  width: 100%;
+  margin-top: 18px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid #dbe3ef;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #e0f2fe;
+  color: #075985;
+}
+
+.pagination-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.pagination-row span {
+  font-weight: 700;
+}

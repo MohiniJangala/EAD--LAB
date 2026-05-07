@@ -1,0 +1,28 @@
+.counter-box.light {
+  background-color: white;
+  color: #1f2937;
+}
+
+.counter-box.dark {
+  background-color: #172033;
+  color: white;
+}
+
+.counter-box.dark h2,
+.counter-box.dark .muted-text {
+  color: #d1fae5;
+}
+
+.counter-display {
+  display: grid;
+  gap: 8px;
+  place-items: center;
+  margin: 22px 0;
+  border: 2px dashed #14b8a6;
+  border-radius: 8px;
+  padding: 22px;
+}
+
+.counter-display strong {
+  font-size: 48px;
+}

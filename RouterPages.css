@@ -1,0 +1,26 @@
+.router-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0;
+}
+
+.router-nav a {
+  border-radius: 6px;
+  padding: 10px 14px;
+  background-color: #e0f2fe;
+  color: #075985;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.router-page {
+  border: 1px solid #bae6fd;
+  border-radius: 8px;
+  padding: 18px;
+  background-color: #f0f9ff;
+}
+
+.router-page h3 {
+  margin-top: 0;
+}

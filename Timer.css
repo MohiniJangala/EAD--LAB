@@ -1,0 +1,19 @@
+.timer-display {
+  margin: 24px 0;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #ecfeff;
+  color: #155e75;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.lap-list {
+  margin: 12px 0 0;
+  padding-left: 24px;
+}
+
+.lap-list li {
+  margin-bottom: 8px;
+}
